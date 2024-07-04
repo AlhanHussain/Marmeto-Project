@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Product Filter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <p class="heading">SELECT YOUR CHOICE</p>
+    <div class="tabs">
+        <div id="menTab" class="tab" onclick="selectCategory('Men')">Men</div>
+        <div id="womenTab" class="tab" onclick="selectCategory('Women')">Women</div>
+        <div id="kidsTab" class="tab" onclick="selectCategory('Kids')">Kids</div>
+    </div>
+
+    <div id="productContainer" class="cardContainer">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
